@@ -11,4 +11,5 @@ public class AppDbContext : DbContext
     }
 
     public DbSet<Flight> Flights => Set<Flight>();
+    public DbSet<User> Users => Set<User>();
 }
